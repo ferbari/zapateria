@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package zapateria;
-
+import utils.*;
 import java.util.Scanner;
 
 /**
@@ -42,7 +42,7 @@ public class Zapateria {
         switch (opcion) {
 
             case 1:
-
+           utils.alta.altacalzado();
                 break;
             case 2:
                 break;
