@@ -10,5 +10,6 @@ package utils;
  * @author desarrollo
  */
 public class consulta {
+    public static void consultacalzado(){}
     
 }
