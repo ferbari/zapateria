@@ -45,6 +45,7 @@ public class Zapateria {
            utils.alta.altacalzado();
                 break;
             case 2:
+                utils.baja.bajacalzado();
                 break;
             case 3:
                 break;

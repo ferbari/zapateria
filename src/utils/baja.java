@@ -10,5 +10,8 @@ package utils;
  * @author desarrollo
  */
 public class baja {
+    public  static void bajacalzado(){
     
+    
+    }    
 }
