@@ -19,7 +19,7 @@ public class Zapateria {
     public static void main(String[] args) {
         int opcion;
         Scanner sc = new Scanner(System.in);
-
+        // debian lite
         // TODO code application logic here
         //menu
         /*
