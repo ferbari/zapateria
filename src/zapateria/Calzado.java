@@ -5,7 +5,6 @@
  * @author desarrollo
  */
 public class Calzado {
-    // class calzado
     int codigo;
     int talla;
    
@@ -13,5 +12,4 @@ public class Calzado {
     String foto;
     String modelo;
     String genero;
-//hjakhsas
 }
