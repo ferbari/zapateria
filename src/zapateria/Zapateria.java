@@ -49,8 +49,10 @@ public class Zapateria {
                 utils.baja.bajacalzado();
                 break;
             case 3:
+                utils.listado.listadocalzado();
                 break;
             case 4:
+                utils.consulta.consultacalzado();
                 break;
             case 5:
                 break;
