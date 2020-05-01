@@ -1,15 +1,14 @@
-
 package utils;
 
 /**
- *  @author fernando
+ * @author fernando
+ * @param sdsd
  */
 public class alta {
-    
-    public static void altacalzado (){
-        
-        System.out.println("hola");
-}
 
+    public static void altacalzado() {
+
+        System.out.println("hola");
+    }
 
 }

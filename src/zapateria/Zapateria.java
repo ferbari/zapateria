@@ -7,6 +7,8 @@ import java.util.Scanner;
 /**
  *
  * @author fernando
+ * 
+ * 
  */
 public class Zapateria {
 

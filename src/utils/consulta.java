@@ -1,11 +1,13 @@
-
 package utils;
 
 /**
  *
- * @author fernando
+ *@author fernando
  */
 public class consulta {
-    public static void consultacalzado(){}
-    
+
+    public static void consultacalzado() {
+
+    }
+
 }
