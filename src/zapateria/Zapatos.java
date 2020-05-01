@@ -3,7 +3,7 @@ package zapateria;
 
 /**
  *
- * @author desarrollo
+ * @author fernando
  */
 public class Zapatos extends Calzado {
 

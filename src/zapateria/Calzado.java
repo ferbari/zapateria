@@ -2,7 +2,7 @@
 
 /**
  *
- * @author desarrollo
+ *  @author fernando
  */
 public class Calzado {
     int codigo;

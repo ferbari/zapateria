@@ -3,7 +3,7 @@ package zapateria;
 
 /**
  *
- * @author desarrollo fernando
+ * @author fernando
  */
 public class deportivo extends Calzado {
     String actividad;//calzado deportivo
