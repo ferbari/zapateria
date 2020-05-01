@@ -9,4 +9,5 @@ public class Zapatos extends Calzado {
 
     String material;
     String color;
+    
 }
