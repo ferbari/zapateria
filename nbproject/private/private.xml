@@ -4,10 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/utils/alta.java</file>
+            <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/utils/LEERYGRABAR.java</file>
             <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/zapateria/Calzado.java</file>
+            <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/zapateria/Zapatos.java</file>
+            <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/zapateria/ChangletaSandalias.java</file>
             <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/utils/baja.java</file>
-            <file>file:/home/desarrollo/NetBeansProjects/zapateria/nbproject/build-impl.xml</file>
+            <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/zapateria/deportivo.java</file>
             <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/zapateria/Zapateria.java</file>
+            <file>file:/home/desarrollo/NetBeansProjects/zapateria/src/utils/consulta.java</file>
         </group>
     </open-files>
 </project-private>

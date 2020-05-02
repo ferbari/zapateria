@@ -25,7 +25,7 @@ public class alta {
         nuevoCalzado.setModelo("smd54");
         nuevoCalzado.setTalla(35);
         Zapatos nuevoZapato =new Zapatos();
-        
+        //llamar metodo escribir o RANDOMACCESSFILE
         System.out.println("hola "+nuevoCalzado.getTalla());
 
     }
