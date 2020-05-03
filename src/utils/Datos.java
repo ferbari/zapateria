@@ -7,9 +7,11 @@ package utils;
  */
 public class Datos {
     //retorna 
-    private static void LEERDATOS(){
+    private static void LeerCalzado(){
     
     }
-   private static void GRABARDATOS(){}
-   private static void BORRARCALZADO(){}
+   private static void GrabarCalzado(){
+   }
+   private static void BorrarCalzado(){
+   }
 }

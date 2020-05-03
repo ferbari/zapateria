@@ -10,11 +10,11 @@ package zapateria;
  */
 public class Calzado {
 
-    int codigo;
-    int talla;
-    String urlFoto;
-    String modelo;
-    String genero;
+   private int codigo;
+   private int talla;
+   private String urlFoto;
+   private String modelo;
+   private String genero;
 
     public Calzado() {
     }

@@ -14,7 +14,7 @@ public class Alta {
      * @author desinweb.com
      * @version 1.0
      * @since 1.0
-     * @param altacalzado da de Alta un calzado
+     * 
      */
     public static void altacalzado() {
         //inicializo el objeto
@@ -25,8 +25,12 @@ public class Alta {
         nuevoCalzado.setModelo("smd54");
         nuevoCalzado.setTalla(35);
         Zapatos nuevoZapato =new Zapatos();
+        nuevoZapato.setColor("Rojo");
+        nuevoZapato.setMaterial("Piel");
+        
         //llamar metodo escribir o RANDOMACCESSFILE
         System.out.println("hola "+nuevoCalzado.getTalla());
+        System.out.println("Zapato "+nuevoZapato.getColor()+" El material es: "+nuevoZapato.getMaterial());
 
     }
 
