@@ -5,7 +5,7 @@ package utils;
  *
  * @author fernando
  */
-public class LeerGrabardatos {
+public class Datos {
     //retorna 
     private static void LEERDATOS(){
     
