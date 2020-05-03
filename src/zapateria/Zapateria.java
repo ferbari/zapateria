@@ -11,7 +11,11 @@ import java.util.Scanner;
  * 
  */
 public class Zapateria {
-
+/**
+     * Método Principal.
+     * @param args 
+     */
+    
     public static void main(String[] args) {
         int opcion;
         Scanner sc = new Scanner(System.in);
@@ -34,16 +38,16 @@ public class Zapateria {
         opcion = sc.nextInt();
         switch (opcion) {
             case 1:
-                utils.alta.altacalzado();
+                utils.Alta.altacalzado();
                 break;
             case 2:
-                utils.baja.bajacalzado();
+                utils.Baja.bajacalzado();
                 break;
             case 3:
-                utils.listado.listadocalzado();
+                utils.Listado.listadocalzado();
                 break;
             case 4:
-                utils.consulta.consultacalzado();
+                utils.Consulta.consultacalzado();
                 break;
             case 5:
                 break;

@@ -1,17 +1,23 @@
- package zapateria;
+package zapateria;
 
 /**
+ * Clase generica calzado
  *
- *  @author fernando
+ * @author Fernando Barreiro
+ * @author desinweb.com
+ * @version 1.0
+ * @since 1.0
  */
 public class Calzado {
+
     int codigo;
     int talla;
     String urlFoto;
     String modelo;
     String genero;
-    
-    public Calzado(){}
+
+    public Calzado() {
+    }
 
     public int getCodigo() {
         return codigo;
@@ -52,5 +58,5 @@ public class Calzado {
     public void setGenero(String genero) {
         this.genero = genero;
     }
-    
+
 }

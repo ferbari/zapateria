@@ -6,11 +6,12 @@ import java.util.Scanner;
  *
  * @author fernando
  */
-public class consulta {
+public class Consulta {
 
     /** 
-     * consultacalzado Metodo para introducir los datos para hacer una consulta
-     * param consulta --valor de la consulta
+     * consultacalzado Metodo para introducir los datos para hacer una Consulta
+ param Consulta --valor de la Consulta
+     * 
      */
     public static void consultacalzado() {
 

@@ -6,15 +6,15 @@ package utils;
  */
 import zapateria.*;
 
-public class alta {
+public class Alta {
 
     /**
-     * Da de alta un calzado
+     * Da de Alta un tipo de calzado
      * @author Fernando Barreiro
      * @author desinweb.com
      * @version 1.0
      * @since 1.0
-     * @param altacalzado da de alta un calzado
+     * @param altacalzado da de Alta un calzado
      */
     public static void altacalzado() {
         //inicializo el objeto

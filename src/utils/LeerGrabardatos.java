@@ -3,12 +3,13 @@ package utils;
 
 /**
  *
- * @author desarrollo
+ * @author fernando
  */
-public class LEERYGRABAR {
+public class LeerGrabardatos {
     //retorna 
     private static void LEERDATOS(){
     
     }
    private static void GRABARDATOS(){}
+   private static void BORRARCALZADO(){}
 }
