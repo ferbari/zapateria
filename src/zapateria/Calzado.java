@@ -2,29 +2,53 @@ package zapateria;
 
 /**
  * Clase generica calzado
- *
  * @author Fernando Barreiro
  * @author desinweb.com
  * @version 1.0
  * @since 1.0
  */
-public class Calzado {
+public abstract class Calzado {
 
-   private int codigo;
+   private String codigo;
    private int talla;
    private String urlFoto;
    private String modelo;
    private String genero;
+   private double precio;
+   private String fabricante;
+   private String tipo;
 
-    public Calzado() {
+    public String getTipo() {
+        return tipo;
     }
 
-    public int getCodigo() {
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+    public Calzado() {
+    }
+ 
+    public String getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
     }
 
     public int getTalla() {

@@ -1,7 +1,7 @@
 
 package zapateria;
 
-import utils.*;
+
 import java.util.Scanner;
 
 /**
@@ -39,16 +39,16 @@ public class Zapateria {
         //switch para el menu
         switch (opcion) {
             case 1:
-                utils.Alta.altacalzado();
+                utils.Almacenamiento.altacalzado();
                 break;
             case 2:
-                utils.Baja.bajacalzado();
+                utils.Almacenamiento.BorrarCalzado();
                 break;
             case 3:
-                utils.Listado.listadocalzado();
+                utils.Almacenamiento.listadocalzado();
                 break;
             case 4:
-                utils.Consulta.consultacalzado();
+                utils.Almacenamiento.consultacalzado();
                 break;
             case 5:
                 break;
