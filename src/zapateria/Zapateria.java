@@ -35,7 +35,8 @@ public class Zapateria {
         System.out.println("3.Listado de calzado.");
         System.out.println("4.Consulta calzado.");
         System.out.println("Introduzca una opción.");
-        opcion = sc.nextInt();
+        opcion = sc.nextInt();//
+        //switch para el menu
         switch (opcion) {
             case 1:
                 utils.Alta.altacalzado();
