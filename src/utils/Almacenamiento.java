@@ -30,11 +30,12 @@ public class Almacenamiento {
     private static String urlFoto;
     private static int talla;
     private static double precio;
-    /** 
-     * 
+
+    /**
+     *
      */
     public static void altacalzado() {
-       
+
         //menu con las opciones 
         Scanner sc = new Scanner(System.in);
         int opciones;//Variable de opcion de menu
@@ -53,15 +54,14 @@ public class Almacenamiento {
                 case 1:
                     Zapato nuevoZapato = new Zapato();
                     System.out.println("Vas a dar de alta un Zapato");
-
-                    tipo = sc.nextLine();
+                    tipo = "Zapato";
                     System.out.println("Introduce el codigo del zapato");
                     codigo = sc.nextLine();
                     nuevoZapato.setCodigo(codigo);
                     System.out.println("Introduce el modelo del zapato");
-                    modelo = sc.nextLine();
+                    /* modelo = sc.nextLine();
                     nuevoZapato.getModelo(modelo);
-
+                     */
                     System.out.println("Introduce el Genero");
                     genero = sc.nextLine();
                     nuevoZapato.setGenero(genero);
