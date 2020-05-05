@@ -18,37 +18,16 @@ public abstract class Calzado {
    private String fabricante;
    private String tipo;
 
-    public String getTipo() {
-        return tipo;
+  
+       public Calzado() {
     }
 
-    public void setTipo(String tipo) {
-        this.tipo = tipo;
-    }
-    public String getFabricante() {
-        return fabricante;
-    }
-
-    public void setFabricante(String fabricante) {
-        this.fabricante = fabricante;
-    }
-    public Calzado() {
-    }
- 
     public String getCodigo() {
         return codigo;
     }
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
-    }
-
-    public double getPrecio() {
-        return precio;
-    }
-
-    public void setPrecio(double precio) {
-        this.precio = precio;
     }
 
     public int getTalla() {
@@ -83,4 +62,29 @@ public abstract class Calzado {
         this.genero = genero;
     }
 
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+       
+ 
 }

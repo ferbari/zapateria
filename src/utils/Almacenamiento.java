@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.Scanner;
-import zapateria.Calzado;
+import zapateria.Calzado.*;
 import zapateria.Zapato;
 import zapateria.ZapatillasHogar;
 import zapateria.ChangletaSandalias;
@@ -47,10 +47,10 @@ public class Almacenamiento {
                     System.out.println("Introduce el codigo del zapato");
                     String codigoZapato = sc.nextLine();
                     nuevoZapato.setCodigo(codigoZapato);
-                    /*System.out.println("Introduce el modelo del zapato");
+                    System.out.println("Introduce el modelo del zapato");
                     String nuevoModelo = sc.nextLine();
                     nuevoZapato.getModelo(nuevoModelo);
-                    */
+                    
                     System.out.println("Introduce el Genero");
                     String generozapato = sc.nextLine();
                     nuevoZapato.setGenero(generozapato);
