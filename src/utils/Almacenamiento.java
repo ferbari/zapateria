@@ -80,18 +80,8 @@ public class Almacenamiento {
 
             }
         } while (opciones != 0);
-        Calzado nuevoCalzado = new Calzado() {
-        };
-        nuevoCalzado.setCodigo("8787hh");
-        nuevoCalzado.setUrlFoto("hsajhs");
-        nuevoCalzado.setGenero("Mujer");
-        nuevoCalzado.setModelo("smd54");
-        nuevoCalzado.setTalla(35);
+        
 
-        //Nuevozapato
-        Zapato nuevoZapato = new Zapato();
-        nuevoZapato.setColor("Rojo");
-        nuevoZapato.setMaterial("Piel");
         //case :
 
         //ChangletaSandalias
@@ -112,8 +102,6 @@ public class Almacenamiento {
          * }
          */
 
-        System.out.println("hola " + nuevoCalzado.getTalla());
-        System.out.println("Zapato " + nuevoZapato.getColor() + " El material es: " + nuevoZapato.getMaterial());
 
     }
 
