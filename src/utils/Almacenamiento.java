@@ -36,7 +36,7 @@ public class Almacenamiento {
             System.out.println("0.Salir");
             System.out.println("1.Alta nuevo zapato");
             System.out.println("2.Alta nueva zapatilla hogar");
-            System.out.println("Alta nueva changleta o sandalia");
+            System.out.println("3.Alta nueva changleta o sandalia");
             System.out.println("Introduce una opción");
             opciones = sc.nextInt();//
             switch (opciones) {
@@ -44,13 +44,14 @@ public class Almacenamiento {
                     Zapato nuevoZapato = new Zapato();
                     System.out.println("Vas a dar de alta un Zapato");
                     String tipoZapato = "Zapato";
+                    sc.nextLine();
                     System.out.println("Introduce el codigo del zapato");
                     String codigoZapato = sc.nextLine();
                     nuevoZapato.setCodigo(codigoZapato);
-                   /* System.out.println("Introduce el modelo del zapato");
-                    String nuevoModelo = sc.nextLine();
-                    nuevoZapato.getModelo(nuevoModelo);*/
-                    
+                    System.out.println("Introduce el modelo del zapato");
+                    /* String nuevoModelo = sc.nextLine();
+                    nuevoZapato.getModelo(nuevoModelo);
+                     */
                     System.out.println("Introduce el Genero");
                     String generozapato = sc.nextLine();
                     nuevoZapato.setGenero(generozapato);
@@ -71,38 +72,34 @@ public class Almacenamiento {
                     System.out.println("Introduce el Genero");
                     String genero = sc.nextLine();
                     nuevaZapatillaHogar.setGenero(genero);
-
                     System.out.println("Introduce la talla");
                     int talla = sc.nextInt();
                     nuevaZapatillaHogar.setTalla(talla);
                     // System.out.println("Zapatilla de hogar modelo : " + nuevaZapatillaHogar.getModelo() + " El código es: " + nuevaZapatillaHogar.getCodigo());
                     break;
+                case 3:
 
+                    //ChangletaSandalias
+                    ChangletaSandalias nuevaChangletaSandalia = new ChangletaSandalias();
+                    nuevaChangletaSandalia.getCodigo();
+                    nuevaChangletaSandalia.getModelo();
+                    nuevaChangletaSandalia.getMaterial();
+                    nuevaChangletaSandalia.getGenero();
+                    nuevaChangletaSandalia.getTalla();
+                    nuevaChangletaSandalia.getPrecio();
+                    nuevaChangletaSandalia.getUrlFoto();
+                    nuevaChangletaSandalia.getFabricante();
+                    nuevaChangletaSandalia.getTipo();
+                    break;
             }
         } while (opciones != 0);
-        
 
-        //case :
-
-        //ChangletaSandalias
-        ChangletaSandalias nuevaChangletaSandalia = new ChangletaSandalias();
-        nuevaChangletaSandalia.getCodigo();
-        nuevaChangletaSandalia.getModelo();
-        nuevaChangletaSandalia.getMaterial();
-        nuevaChangletaSandalia.getGenero();
-        nuevaChangletaSandalia.getTalla();
-        nuevaChangletaSandalia.getPrecio();
-        nuevaChangletaSandalia.getUrlFoto();
-        nuevaChangletaSandalia.getFabricante();
-        nuevaChangletaSandalia.getTipo();
         /**
          * try{ archivo=new RandoAccessFile("Calzado.dat","rw");
          * }catch(IOException e){
          *
          * }
          */
-
-
     }
 
     /**
