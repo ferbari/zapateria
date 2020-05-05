@@ -21,6 +21,7 @@ import zapateria.CalzadoDeportivo;
  *
  */
 public class Almacenamiento {
+//variables
 
     private static String tipo;
     private static String codigo;
@@ -28,6 +29,8 @@ public class Almacenamiento {
     private static String modelo;
     private static String fabricante;
     private static String urlFoto;
+    private static String material;
+    private static String color;
     private static int talla;
     private static double precio;
 
@@ -53,15 +56,16 @@ public class Almacenamiento {
             switch (opciones) {
                 case 1:
                     Zapato nuevoZapato = new Zapato();
-                    System.out.println("Vas a dar de alta un Zapato");
+                    System.out.println("Vas a dar de alta un nuevo Zapato");
                     tipo = "Zapato";
+                    nuevoZapato.setTipo(tipo);
                     System.out.println("Introduce el codigo del zapato");
                     codigo = sc.nextLine();
                     nuevoZapato.setCodigo(codigo);
                     System.out.println("Introduce el modelo del zapato");
-                    /* modelo = sc.nextLine();
-                    nuevoZapato.getModelo(modelo);
-                     */
+                    modelo = sc.nextLine();
+                    nuevoZapato.setModelo(modelo);
+
                     System.out.println("Introduce el Genero");
                     genero = sc.nextLine();
                     nuevoZapato.setGenero(genero);
@@ -73,6 +77,11 @@ public class Almacenamiento {
                 case 2:
                     //nuevaZapatillaHogar
                     ZapatillasHogar nuevaZapatillaHogar = new ZapatillasHogar();
+
+                    System.out.println("Vas a dar de alta una Zaptilla de hogar");
+
+                    tipo = "Zapatilla";
+                    nuevaZapatillaHogar.setTipo(tipo);
                     System.out.println("Introduce el codigo de la zapatilla de hogar");
                     codigo = sc.nextLine();
                     nuevaZapatillaHogar.setCodigo(codigo);
@@ -94,22 +103,31 @@ public class Almacenamiento {
                     System.out.println("Introduce el tipo de calzado Changleta o Sandalia");
                     tipo = sc.nextLine();
                     nuevaChangletaSandalia.setTipo(tipo);
+                    System.out.println("Introduce el codigo ");
+                    codigo = sc.nextLine();
+                    nuevaChangletaSandalia.setCodigo(codigo);
+                    System.out.println("Introduce el modelo");
+                    modelo = sc.nextLine();
+                    nuevaChangletaSandalia.setModelo(modelo);
+                    System.out.println("Introduce el material");
+                    material = sc.nextLine();
+                    nuevaChangletaSandalia.setMaterial(material);
 
-                    nuevaChangletaSandalia.getCodigo();
-
-                    nuevaChangletaSandalia.getModelo();
-
-                    nuevaChangletaSandalia.getMaterial();
-
-                    nuevaChangletaSandalia.getGenero();
-
-                    nuevaChangletaSandalia.getTalla();
-
-                    nuevaChangletaSandalia.getPrecio();
-
-                    nuevaChangletaSandalia.getUrlFoto();
-
-                    nuevaChangletaSandalia.getFabricante();
+                    System.out.println("Introduce el Genero");
+                    genero = sc.nextLine();
+                    nuevaChangletaSandalia.setGenero(genero);
+                    System.out.println("Introduce la talla");
+                    talla = sc.nextInt();
+                    nuevaChangletaSandalia.setTalla(talla);
+                    System.out.println("Introduce el precio");
+                    precio = sc.nextInt();
+                    nuevaChangletaSandalia.setPrecio(precio);
+                    System.out.println("Introduce la talla");
+                    urlFoto = sc.nextLine();
+                    nuevaChangletaSandalia.setUrlFoto(urlFoto);
+                    System.out.println("Introduce la talla");
+                    fabricante = sc.nextLine();
+                    nuevaChangletaSandalia.setFabricante(fabricante);
 
                     break;
             }
