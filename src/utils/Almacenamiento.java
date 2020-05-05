@@ -4,7 +4,6 @@ import java.io.EOFException;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
-//
 import java.util.Scanner;
 import zapateria.Calzado;
 import zapateria.Zapatos;
@@ -57,6 +56,7 @@ public class Almacenamiento {
         System.out.println("Introduce la talla");
         int talla=sc.nextInt();
         nuevaZapatillaHogar.setTalla(talla);
+       // System.out.println("Zapatilla de hogar modelo : " + nuevaZapatillaHogar.getModelo() + " El código es: " + nuevaZapatillaHogar.getCodigo());
         break;
         
         }
@@ -105,7 +105,7 @@ archivo=new RandoAccessFile("Calzado.dat","rw");
      *
      */
     public static void consultacalzado() {
-
+Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un dato");
         Scanner buscar = new Scanner(System.in);
         String consulta = buscar.nextLine();
@@ -127,7 +127,21 @@ archivo=new RandoAccessFile("Calzado.dat","rw");
      * metodo listadocalzado lISTADO CALZADO POR TIPO(DEPORTIVO,HOGAR,ZAPATOS)
      */
     public static void listadocalzado() {
-
+      //deportivo hogar zapatos
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Ver listados.");
+      System.out.println("1.Listado de clazado deportivo.");
+      System.out.println("2.Listado de zapatillas hogar.");
+      System.out.println("3.Listado de zapatos.");
+      System.out.println("Introduce una opción.");
+      int opciones=sc.nextInt();
+      do{
+      switch(opciones){
+      
+      
+      }
+      
+      }while(opciones!=0);
     }
 
 }
