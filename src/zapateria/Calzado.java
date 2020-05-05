@@ -54,6 +54,8 @@ public abstract class Calzado {
         this.modelo = modelo;
     }
 
+  
+
     public String getGenero() {
         return genero;
     }
