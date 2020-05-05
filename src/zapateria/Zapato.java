@@ -6,7 +6,7 @@ package zapateria;
  * @author fernando
  * 
  */
-public class Zapatos extends Calzado {
+public class Zapato extends Calzado {
 
    private String material;
    private String color;
