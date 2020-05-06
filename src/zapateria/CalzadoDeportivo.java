@@ -7,5 +7,5 @@ package zapateria;
  * 
  */ 
 public class CalzadoDeportivo extends Calzado {
-    String actividad;//calzado CalzadoDeportivo
+    String actividad;//calzado CalzadoDeportivo actividad
 }

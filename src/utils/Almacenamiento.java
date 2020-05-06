@@ -44,7 +44,7 @@ public class Almacenamiento {
         int opciones;//Variable de opcion de menu
 
         do {
-
+            
             System.out.println("Menu de alta");
             System.out.println("0.Salir");
             System.out.println("1.Alta nuevo zapato");
@@ -73,7 +73,7 @@ public class Almacenamiento {
                     nuevoZapato.setTalla(talla);
                     GrabarCalzado(nuevoZapato);
                     break;
-
+                
                 case 2:
                     //nuevaZapatillaHogar
                     ZapatillasHogar nuevaZapatillaHogar = new ZapatillasHogar();
@@ -148,30 +148,60 @@ public class Almacenamiento {
         System.out.println("Introduce un dato");
         Scanner buscar = new Scanner(System.in);
         String consulta = buscar.nextLine();
-
+        
     }
     //retorna 
 
     public static void LeerCalzado() {
-
+        
     }
 
-    static void GrabarCalzado(Object objeto) {
-//meter datos en randomaccessfile
+    /**
+     * Metodo que grava en Randomaccessfile
+     *
+     * @param objeto --Pasamos el valor de los diferentes objetos segun su
+     * creación
+     */
+    static void GrabarCalzado(Object objeto)throws FileNotFoundException,IOException {
+         //meter datos en randomaccessfile
+        RandomAccessFile f = new RandomAccessFile("datos.txt", "rw");
+        f.seek(f.length());
         if (objeto instanceof ChangletaSandalias) {
-
+            
             ChangletaSandalias p = (ChangletaSandalias) objeto;
+            // material;
+            f.writeInt(p.getCodigo());
         }
         if (objeto instanceof ZapatillasHogar) {
-
+            //atributos de calzado
             ZapatillasHogar p = (ZapatillasHogar) objeto;
         }
         if (objeto instanceof Zapato) {
-
+            
             Zapato p = (Zapato) objeto;
+            /*
+             private String material;
+             private String color;*/
         }
-    }
+        
+        if (objeto instanceof CalzadoDeportivo) {
+            //calzado CalzadoDeportivo actividad
+            CalzadoDeportivo p = (CalzadoDeportivo) objeto;
+            
+        }
 
+
+        /* Comun
+    codigo;
+    talla; f.writeInt(p.getCodigo());
+    urlFoto;
+    modelo;
+    genero;
+    precio;
+    fabricante;
+    tipo;*/
+    }
+    
     public static void BorrarCalzado() {
     }
 
@@ -189,10 +219,10 @@ public class Almacenamiento {
         int opciones = sc.nextInt();
         do {
             switch (opciones) {
-
+                
             }
-
+            
         } while (opciones != 0);
     }
-
+    
 }
