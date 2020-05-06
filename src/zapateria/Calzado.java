@@ -87,6 +87,8 @@ public abstract class Calzado {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+   
        
  
 }
